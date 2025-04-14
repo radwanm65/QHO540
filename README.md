@@ -11,7 +11,7 @@
    - `npm install sqlite3`
    - `npm install body-parser`
    - `npm install express-validator`
-   - `npm install [any other dependencies included in the main server/index entry point`
+   - `npm install [any other dependencies included in the main server/index entry point]`
 6. After installing all dependencies successfully, **run the following command**:
    - `node index.js or [index.mjs or server.mjs]` based on the main entry point to your project
 7. **Use the included code** as guidance and adapt it to meet the assessment's specific requirements and database structure.
