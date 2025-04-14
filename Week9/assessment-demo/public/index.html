@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QHO540 (WAD) Restaurant Booking System</title>
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="Style.css">
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+    <!-- JavaScript File -->
+    <script src="client.mjs"></script>
+</head>
+<body>
+    <h1>WAD-QHO540 Restaurants On-Line Booking System</h1>
+
+    <div id="authSection">
+        <h2>Login</h2>
+        <input type="text" id="loginUsername" placeholder="Username">
+        <br>
+        <input type="password" id="loginPassword" placeholder="Password">
+        <br>
+        <button id="loginBtn">Login</button>
+
+        <h2>Register</h2>
+        <input type="text" id="registerUsername" placeholder="Username" required>
+        <br>
+        <input type="password" id="registerPassword" placeholder="Password" required>
+        <br>
+        <input type="password" id="confirmPassword" placeholder="Confirm Password" required>
+        <br>
+        <button id="registerBtn">Sign Up</button>
+    </div>
+
+    <div id="searchSection">
+        <h2>Search Restaurants</h2>
+        <input type="text" id="location" placeholder="Location">
+        <br>
+        <input type="text" id="type" placeholder="Type">
+        <br>
+        <button id="searchBtn">Search</button>
+        <br>
+    </div>
+
+    <div id="results"></div>
+
+    <div id="map" style="height: 400px;"></div>
+</body>
+</html>
