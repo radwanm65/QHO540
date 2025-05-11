@@ -1,4 +1,4 @@
-# Steps to Run the Applications included in Week9 Folder
+# Steps to Run the Applications included in the MOCK-TCA Folder
 
 1. **Get a copy** of this project on your local machine.
 2. **Open Visual Studio Code (VSCode)**.
