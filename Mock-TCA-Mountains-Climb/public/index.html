@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!-- HTML PAGE FOR THE QHO540-WAD TCA. DO NOT CHANGE THIS IN ANY WAY. -->
+<html>
+<head>
+<title>QHO540-WAD MOCK-TCA Front End</title>
+<style type='text/css'>
+body {
+    background-color: #dcbdab;
+    background-image: url("bkg.jpg");
+    background-size: cover;
+    font-family: sans-serif; 
+}
+</style>
+</head>
+<body>
+<h1>QHO540 WAD-TCA</h1>
+<h1>Mountain Climbs Web App</h1>
+<p>
+Climb difficulty:
+<input id='climbDifficulty' />
+<input type='button' id='btnClimbSearch' value='Search!' />
+</p>
+<div id='climbResults'></div>
+<h2>Add Climb:</h2>
+<p>
+Mountain Name:<br />
+<input id='mname' /><br />
+Diffculty:<br />
+<input id='difflevel' /><br />
+Height:<br />
+<input id='height' /><br />
+Distance:<br />
+<input id='dist' /><br />
+<input type='button' id='btnAddClimb' value='Add!' />
+</p>
+<div id='addClimbStatus'></div>
+<h2>Login:</h2>
+<p>
+Username:<br />
+<input id='user' /><br />
+Password:<br />
+<input id='pass' type='password' /><br />
+<input type='button' id='btnLogin' value='Login!' />
+</p>
+<div id='loginStatus'></div>
+<script type='text/javascript' src='client.mjs'></script>
+</body>
+</html>
